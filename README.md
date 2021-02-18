@@ -59,32 +59,33 @@ If you have a compatable NVMe SSD remove SSDT_NVMe-Pcc.aml from /CLOVER/ACPI/Pat
 ###### NOTE2: 
 Bios version CNCN11WW forces RST storage controller mode on the SATA drive so i added CtlnaAHCIPort.kext to boot my system. Even if you are installed on the nvme drive you need this kext to see and open sata devices in osx.
 
-Change logs:
-V29
+###### Change logs:
+
+**V29**
 YogaSMC ECRW.aml Update
 
-V28
+**V28**
 Kext Update:YogaSMC updated to 1.4.3
 Plist clean up
 
-V27
+**V27**
 Kext Update: YogaSMC updated to 1.4.2
 
-V26
+**V26**
 SMBios info cleanup
 Hardware UUID is generated based on Serial, SMUUID and MLB.
 Consolidated MacBookPro 16,2 SMbios info.
 Kext Update: VoodooI2C.Kext
 
 
-V25
+**V25**
 Add New Kext YogaSMC.kext for advanced Idealpad Control. Load after VirtualSMC. Enabled.
 Add New Kext YogaSMCAlter for YogaSMC Alternative mode. Load after VirtualSMC. Disabled. 
 Add new dmg for YogaSMC.
 Add SSDT-ECRW.aml for EC access. None functional. Disabled in config.
 Add SSDT-RCSM.aml for EC access. None functional. Disabled in config.
 
-V24
+**V24**
 Add new Kext RestrictEvents
 Update Kext
 	AppleALC
@@ -104,7 +105,7 @@ Oh and if you delete the Bootstrap folder as part of the update and you don't ha
 
 https://dortania.github.io/OpenCore-Post-Install/multiboot/bootstrap.html#updating-bootstrap-in-0-6-6
 
-V23
+**V23**
 Update Kext
 	VoodooI2C
 	VoodooI2CHID
@@ -112,7 +113,7 @@ Update Kext
 Change bootarg gfxonln=1 to -igfxblr
 Add enable-backlight-registers-fix, 01000000, as data
 
-V22
+**V22**
 Update OpenCore to 0.6.5
 Update OpenCore Plist to 0.6.5
 Remove quirk bootorder
@@ -123,13 +124,13 @@ Update kext
 	KEEP WhateverGreen Old version, New version causes random GPU initialisation issue.
 Update VoltageShift to 1.25
 
-V21
+**V21**
 19/12/2020
 
 ACPI Disabled SSDT-PMCR.aml, SSDT-DMAC.aml, SSDT-UIAC.aml, SSDT-XSPI.aml
 Kext Replaced ACHI Kext to CtlnaAHCIPort.kext
 
-V20
+**V20**
 02/12/2020
 
 OpenCore update to 0.6.4
@@ -137,7 +138,7 @@ Fixed type in config plists where SSDT-XSPI to SSDT-XSPI.aml
 Updated kexts AppleALC, Lilu, VistualSMC, VoodooPS2Controller, whatevergreen
 Fix ‘PlayChime’ from type Boolean, to type String (with a value of Auto)  
 
-V19
+**V19**
 30/11/2020
 
 Implementation of VoltageShift for power control
@@ -151,7 +152,7 @@ Copy VoltageShift folder to /Users/anqisong/voltageshift
 Add AppleScript for Info, Power, Turbo functions
 
 
-V18
+**V18**
 01/10/2020
 
 Update to OpenCore 0.6.3
@@ -161,8 +162,7 @@ Big Sur Disable CSR and SIP
 	csr-active-config
 	From E70B0000 to FF0F0000
 
-
-V17
+**V17**
 01/09/2020
 
 Switch to OpenCore 0.6.2
@@ -188,7 +188,7 @@ Added config plists for different options.
 	For fbmem at 2048mb 00009000
 	For fbmem at 3072 000000C0
 
-V16
+**V16**
 01/08/2020
 
 Forked and adapted from https://github.com/3ig/IdeaPad-S540-15IML-hackintosh

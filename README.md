@@ -59,7 +59,7 @@ If you have a compatable NVMe SSD remove SSDT_NVMe-Pcc.aml from /CLOVER/ACPI/Pat
 ###### NOTE2: 
 Bios version CNCN11WW forces RST storage controller mode on the SATA drive so i added CtlnaAHCIPort.kext to boot my system. Even if you are installed on the nvme drive you need this kext to see and open sata devices in osx.
 
-###### Change logs:
+**Change logs:**
 
 **V29**
 YogaSMC ECRW.aml Update

@@ -1,0 +1,10 @@
+DVMT：
+
+区域（area） : SaSetup
+偏移（offset） : 0x107
+01 to 02
+CFG LOCK：
+
+区域（area） : CpuSetup
+偏移（offset） : 0x3E
+01 to 00

@@ -61,7 +61,12 @@ Bios version CNCN11WW forces RST storage controller mode on the SATA drive so i 
 
 **Change logs:**
 
-**V29**
+V30
+Add beast mode CPUFriendData.kext. Thanks to win1010525 and lietxia.
+Add CPUFriend.kext to enable beast mode. CPU Shoots up to 4.9ghz single thread. System responsiveness does improve slightly. Battery life negatively affected. 
+Update plist to enable both kexts.
+
+V29
 YogaSMC ECRW.aml Update
 
 **V28**

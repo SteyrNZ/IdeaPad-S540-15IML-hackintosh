@@ -1,5 +1,11 @@
+V30
+Add beast mode CPUFriendData.kext. Thanks to win1010525 and lietxia.
+Add CPUFriend.kext to enable beast mode. CPU Shoots up to 4.9ghz single thread. System responsiveness does improve slightly. Battery life negatively affected. 
+Update plist to enable both kexts.
+
 V29
 YogaSMC ECRW.aml Update
+
 
 V28
 Kext Update:YogaSMC updated to 1.4.3

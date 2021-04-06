@@ -1,5 +1,15 @@
+V33
+OpenCore Update to 0.6.8
+Kext Update AppleAPC, Lilu, NVMeFix, VirtualSMC, VoodooInput, WhateverGreen
+Update Resources folder
+Remove AppleEvent from ProtocolOverrides in all plists.
+Change Keyforgetthreshold to 1
+
 V32
+OpenCore update to 0.6.7
+Remove bootstrap folder and efi.
 Kext update: AppleALC.Kext, VoodooPS2Controller.kext, WhateverGreen.kext, VirtualSMC kexts. 
+Remove KeyMergeThreshold from plists.
 
 V31
 Add Powersave mode CPUFriendData.kext. Choose which one to implement from 10510u folder.

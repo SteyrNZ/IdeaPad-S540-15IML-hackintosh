@@ -61,12 +61,30 @@ Bios version CNCN11WW forces RST storage controller mode on the SATA drive so i 
 
 **Change logs:**
 
-V30
+**V33**
+OpenCore Update to 0.6.8
+Kext Update AppleAPC, Lilu, NVMeFix, VirtualSMC, VoodooInput, WhateverGreen
+Update Resources folder
+Remove AppleEvent from ProtocolOverrides in all plists.
+Change Keyforgetthreshold to 1
+
+**V32**
+OpenCore update to 0.6.7
+Remove bootstrap folder and efi.
+Kext update: AppleALC.Kext, VoodooPS2Controller.kext, WhateverGreen.kext, VirtualSMC kexts. 
+Remove KeyMergeThreshold from plists.
+
+**V31**
+Add Powersave mode CPUFriendData.kext. Choose which one to implement from 10510u folder.
+Currently Running Apple Official power management profile. 
+Kext Update: VoodooI2C.kext, VoodooI2CHID to 2.5.6
+
+**V30**
 Add beast mode CPUFriendData.kext. Thanks to win1010525 and lietxia.
 Add CPUFriend.kext to enable beast mode. CPU Shoots up to 4.9ghz single thread. System responsiveness does improve slightly. Battery life negatively affected. 
 Update plist to enable both kexts.
 
-V29
+**V29**
 YogaSMC ECRW.aml Update
 
 **V28**

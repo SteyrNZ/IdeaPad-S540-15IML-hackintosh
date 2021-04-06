@@ -1161,6 +1161,8 @@
 			<string>C02034301CD00001H</string>
 			<key>ROM</key>
 			<data>Fz7N9iYE</data>
+			<key>SystemSerialNumber</key>
+			<string></string>
 			<key>SystemUUID</key>
 			<string>AE376971-3681-4A7F-9DF2-4D94A46804AB</string>
 		</dict>
@@ -1206,6 +1208,8 @@
 			<integer>20</integer>
 			<key>PlayChime</key>
 			<string>Auto</string>
+			<key>ResetTrafficClass</key>
+			<false/>
 			<key>SetupDelay</key>
 			<integer>0</integer>
 			<key>VolumeAmplifier</key>
@@ -1233,9 +1237,7 @@
 			<key>KeyFiltering</key>
 			<false/>
 			<key>KeyForgetThreshold</key>
-			<integer>5</integer>
-			<key>KeyMergeThreshold</key>
-			<integer>2</integer>
+			<integer>1</integer>
 			<key>KeySupport</key>
 			<true/>
 			<key>KeySupportMode</key>
@@ -1258,6 +1260,8 @@
 			<key>DirectGopRendering</key>
 			<false/>
 			<key>ForceResolution</key>
+			<false/>
+			<key>GopPassThrough</key>
 			<false/>
 			<key>IgnoreTextInGraphics</key>
 			<true/>
@@ -1317,6 +1321,8 @@
 		</dict>
 		<key>Quirks</key>
 		<dict>
+			<key>ActivateHpetSupport</key>
+			<false/>
 			<key>DisableSecurityPolicy</key>
 			<false/>
 			<key>ExitBootServicesDelay</key>

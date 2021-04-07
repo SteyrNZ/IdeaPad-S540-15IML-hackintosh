@@ -1,7 +1,7 @@
 # FForked and adapted from https://github.com/3ig/IdeaPad-S540-15IML-hackintosh, I have kept this updated and made my own twists. 
 Change WIFI+BT module from Intel to BCM943602CS which is Genuine Apple part, now everything works as Apple as possible. 
 
-Lenovo IdeaPad S540-15IML (Big Sur 11.1 hackintosh) for bios version CNCN16WW
+Lenovo IdeaPad S540-15IML (Big Sur 11.3 hackintosh) for bios version CNCN18WW
 
 | Specifications | Details |
 |:-: |:-: |

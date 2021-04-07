@@ -71,32 +71,39 @@ Remove AppleEvent from ProtocolOverrides in all plists.
 Change Keyforgetthreshold to 1
 
 **V32**
+
 OpenCore update to 0.6.7
 Remove bootstrap folder and efi.
 Kext update: AppleALC.Kext, VoodooPS2Controller.kext, WhateverGreen.kext, VirtualSMC kexts. 
 Remove KeyMergeThreshold from plists.
 
 **V31**
+
 Add Powersave mode CPUFriendData.kext. Choose which one to implement from 10510u folder.
 Currently Running Apple Official power management profile. 
 Kext Update: VoodooI2C.kext, VoodooI2CHID to 2.5.6
 
 **V30**
+
 Add beast mode CPUFriendData.kext. Thanks to win1010525 and lietxia.
 Add CPUFriend.kext to enable beast mode. CPU Shoots up to 4.9ghz single thread. System responsiveness does improve slightly. Battery life negatively affected. 
 Update plist to enable both kexts.
 
 **V29**
+
 YogaSMC ECRW.aml Update
 
 **V28**
+
 Kext Update:YogaSMC updated to 1.4.3
 Plist clean up
 
 **V27**
+
 Kext Update: YogaSMC updated to 1.4.2
 
 **V26**
+
 SMBios info cleanup
 Hardware UUID is generated based on Serial, SMUUID and MLB.
 Consolidated MacBookPro 16,2 SMbios info.
@@ -104,6 +111,7 @@ Kext Update: VoodooI2C.Kext
 
 
 **V25**
+
 Add New Kext YogaSMC.kext for advanced Idealpad Control. Load after VirtualSMC. Enabled.
 Add New Kext YogaSMCAlter for YogaSMC Alternative mode. Load after VirtualSMC. Disabled. 
 Add new dmg for YogaSMC.
@@ -111,6 +119,7 @@ Add SSDT-ECRW.aml for EC access. None functional. Disabled in config.
 Add SSDT-RCSM.aml for EC access. None functional. Disabled in config.
 
 **V24**
+
 Add new Kext RestrictEvents
 Update Kext
 	AppleALC
@@ -131,6 +140,7 @@ Oh and if you delete the Bootstrap folder as part of the update and you don't ha
 https://dortania.github.io/OpenCore-Post-Install/multiboot/bootstrap.html#updating-bootstrap-in-0-6-6
 
 **V23**
+
 Update Kext
 	VoodooI2C
 	VoodooI2CHID
@@ -139,6 +149,7 @@ Change bootarg gfxonln=1 to -igfxblr
 Add enable-backlight-registers-fix, 01000000, as data
 
 **V22**
+
 Update OpenCore to 0.6.5
 Update OpenCore Plist to 0.6.5
 Remove quirk bootorder

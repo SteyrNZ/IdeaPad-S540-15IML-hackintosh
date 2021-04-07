@@ -62,8 +62,8 @@ Bios version CNCN11WW forces RST storage controller mode on the SATA drive so i 
 **Change logs:**
 
 **V33**
-
 06 Apr 2021
+
 OpenCore Update to 0.6.8
 Kext Update AppleAPC, Lilu, NVMeFix, VirtualSMC, VoodooInput, WhateverGreen
 Update Resources folder

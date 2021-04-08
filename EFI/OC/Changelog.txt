@@ -1,3 +1,6 @@
+V34
+Fix AppleEvent error from Boolean to string auto
+
 V33
 OpenCore Update to 0.6.8
 Kext Update AppleAPC, Lilu, NVMeFix, VirtualSMC, VoodooInput, WhateverGreen

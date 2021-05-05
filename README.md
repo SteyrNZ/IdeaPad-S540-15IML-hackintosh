@@ -1,7 +1,11 @@
-# FForked and adapted from https://github.com/3ig/IdeaPad-S540-15IML-hackintosh, I have kept this updated and made my own twists. 
-Change WIFI+BT module from Intel to BCM943602CS which is Genuine Apple part, now everything works as Apple as possible. 
+# Lenovo IdeaPad S540-15IML (Big Sur 11.2.3) for bios version CNCN18WW
+## Forked and adapted from the great work of 3ig @ https://github.com/3ig/IdeaPad-S540-15IML-hackintosh, I have kept this updated and made my own twists. 
 
-Lenovo IdeaPad S540-15IML (Big Sur 11.3 hackintosh) for bios version CNCN18WW
+To seek ease of use, I have decided to Change the WIFI+BT module from Intel to BCM943602CS which is Genuine Apple part, now everything works as Apple as possible, AirDrop, AirPlay, FaceTime, Message and Continuity actions all function perfectly without the need to further tweak at all. 
+
+If you do want to avoid the hassle of ordering a flexi Mac Wifi to PCIE adapter from Taobao.com, other options are indeed availabe. They will affect the ease of use aspect quite a bit though. 
+
+For Intel Wifi, OpenIntelWireless drivers @ https://github.com/OpenIntelWireless/itlwm does work fine as well for all the basic functionalities. 
 
 | Specifications | Details |
 |:-: |:-: |
@@ -17,8 +21,9 @@ Lenovo IdeaPad S540-15IML (Big Sur 11.3 hackintosh) for bios version CNCN18WW
 | Network Card | Intel (replaced with Apple BCM943602CS) |
 
 ## Current status:
-Working:
+Working: Everything!
 - Intel Graphics (HDMI works)
+- NVMe SSD (Kingston A2000)
 - Sound / Mic 
 - Bluetooth / Wifi (with BCM943602CS)
 - Keyboard
@@ -26,8 +31,8 @@ Working:
 - Card reader
 - Camera
 - USBs
-- Brightness adjustment (with Fn keys)
-- Battery managment (7 / 8 hour battery with latest BIOS)
+- Brightness adjustment
+- Battery managment (6 / 7 hour battery with latest BIOS), can further improve with included powersaving CPU Friend profiles, or Volta to limit Chip power. 
 - Power managment
 - Sleep / Wake
 - Nvram
@@ -39,10 +44,10 @@ Not working:
 I must say this machine turned out to be a way better hackintosh than i expected given the new 10gen hardware. It took some time but i got everything working smoothly with great battery life and a really fast pci-e card reader (that was kind of important for me).Performance is on par with with 2019 MacBook Pro 13 inch if not better in some cases. 
 
 ## UPDATE: 
-I will not update Clover config going forward (it's valid for Catalina 10.15.7 ), but it will stay here in the repo in case someone wants to use Clover.
 The OpenCore config expects DVMT to be 64mb and CFG LOCK to be disabled in bios. 
 
 #### Change DVMT and CFG Lock: needs windows
+
 Reference https://github.com/lietxia/XiaoXinAir14IML_2019_hackintosh/wiki/DVMT  
 `DVMT`:  
 * Area (area): `SaSetup`
@@ -55,8 +60,6 @@ Reference https://github.com/lietxia/XiaoXinAir14IML_2019_hackintosh/wiki/DVMT
 * `01` to `00`
 
 ###### NOTE: 
-If you have a compatable NVMe SSD remove SSDT_NVMe-Pcc.aml from /CLOVER/ACPI/Patched
-###### NOTE2: 
 Bios version CNCN11WW forces RST storage controller mode on the SATA drive so i added CtlnaAHCIPort.kext to boot my system. Even if you are installed on the nvme drive you need this kext to see and open sata devices in osx.
 
 **Change logs:**

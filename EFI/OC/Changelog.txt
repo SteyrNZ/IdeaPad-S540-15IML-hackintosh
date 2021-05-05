@@ -1,3 +1,13 @@
+V35
+OpenCore Update: 
+	0.6.9
+Kext update:
+	AppleALC
+	Lilu
+	NvmeFix
+	VoodooPS2Controller
+	VirtualSMC
+
 V34
 Fix AppleEvent error from Boolean to string auto
 

@@ -1,4 +1,4 @@
-# Lenovo IdeaPad S540-15IML (Big Sur 11.3.1) for bios version CNCN18WW
+# Lenovo IdeaPad S540-15IML (Big Sur 11.4) for bios version CNCN18WW
 ## Forked and adapted from the great work of 3ig @ https://github.com/3ig/IdeaPad-S540-15IML-hackintosh, I have kept this updated and made my own twists. 
 
 To seek ease of use, I have decided to Change the WIFI+BT module from Intel to BCM943602CS which is Genuine Apple part, now everything works as Apple as possible, AirDrop, AirPlay, FaceTime, Message and Continuity actions all function perfectly without the need to further tweak at all. 

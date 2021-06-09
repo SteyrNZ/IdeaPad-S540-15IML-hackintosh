@@ -1,3 +1,31 @@
+V39
+Kext update:
+	AppleALC.kext
+	Brightnesskey.kext
+	NVMEFix.kext
+	Restrictevents.kext
+	whatevergreen.kext
+	VirtualSMC.kext
+OpenCore Update 0.7.0
+
+V38
+BootChime Enabled.
+Drivers enable AudioDxe.efi
+Audio PlayChime Enabled, AudioSupport Ticked, Min Volume 40, Volume Amp 143
+NVRam 7c436110 Add SystemAudioVolume 46 Data.
+Resources Audio Add OCEFIAudio_VoiceOver_Boot.wav
+
+V37
+Kext Update: 
+	YogaSMC.kext, version 1.5.1, no kp no change. 
+	YogaSMC app and prefpane update.
+	RestricEvents.kext
+
+V36
+Kext Update: YogaSMC.Kext. KP revert back to old
+YogaSMC app and prefpane update
+
+
 V35
 OpenCore Update: 
 	0.6.9
@@ -9,13 +37,12 @@ Kext update:
 	VirtualSMC
 
 V34
-Fix AppleEvent error from Boolean to string auto
+Fix AppleEvent error from Boolean to Auto
 
 V33
 OpenCore Update to 0.6.8
 Kext Update AppleAPC, Lilu, NVMeFix, VirtualSMC, VoodooInput, WhateverGreen
 Update Resources folder
-Remove AppleEvent from ProtocolOverrides in all plists.
 Change Keyforgetthreshold to 1
 
 V32

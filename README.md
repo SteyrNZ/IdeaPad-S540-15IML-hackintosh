@@ -1,4 +1,4 @@
-# Lenovo IdeaPad S540-15IML (Big Sur 11.2.3) for bios version CNCN18WW
+# Lenovo IdeaPad S540-15IML (Big Sur 11.3.1) for bios version CNCN18WW
 ## Forked and adapted from the great work of 3ig @ https://github.com/3ig/IdeaPad-S540-15IML-hackintosh, I have kept this updated and made my own twists. 
 
 To seek ease of use, I have decided to Change the WIFI+BT module from Intel to BCM943602CS which is Genuine Apple part, now everything works as Apple as possible, AirDrop, AirPlay, FaceTime, Message and Continuity actions all function perfectly without the need to further tweak at all. 
@@ -63,6 +63,18 @@ Reference https://github.com/lietxia/XiaoXinAir14IML_2019_hackintosh/wiki/DVMT
 Bios version CNCN11WW forces RST storage controller mode on the SATA drive so i added CtlnaAHCIPort.kext to boot my system. Even if you are installed on the nvme drive you need this kext to see and open sata devices in osx.
 
 **Change logs:**
+
+**V35**
+05 May 2021
+
+OpenCore Update: 
+	0.6.9
+Kext update:
+	AppleALC
+	Lilu
+	NvmeFix
+	VoodooPS2Controller
+	VirtualSMC
 
 **V34**
 08 Apr 2021

@@ -1,3 +1,14 @@
+V40
+Kext Update:
+	AppleALC.kext
+	Lilu.kext
+	NVMeFix.kext
+	RestrictEvents.kext
+	VoodooPS2Controller.kext
+	WhateverGreen.kext
+	VirtualSMC related kexts
+OpenCore Update 0.7.1
+
 V39
 Kext update:
 	AppleALC.kext
